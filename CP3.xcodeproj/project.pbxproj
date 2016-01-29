@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		87A242431C5BB09100B6C549 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A242421C5BB09100B6C549 /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		87A2423D1C5BB09100B6C549 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,8 @@
 
 /* Begin PBXFileReference section */
 		87A2423F1C5BB09100B6C549 /* CP3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CP3; sourceTree = BUILT_PRODUCTS_DIR; };
-		87A242421C5BB09100B6C549 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		87A242491C5BB0CC00B6C549 /* UVa10911.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UVa10911.cpp; sourceTree = "<group>"; };
+		87A2424C1C5BD30C00B6C549 /* scanf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scanf.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +54,8 @@
 		87A242411C5BB09100B6C549 /* CP3 */ = {
 			isa = PBXGroup;
 			children = (
-				87A242421C5BB09100B6C549 /* main.cpp */,
+				87A242491C5BB0CC00B6C549 /* UVa10911.cpp */,
+				87A2424C1C5BD30C00B6C549 /* scanf.cpp */,
 			);
 			path = CP3;
 			sourceTree = "<group>";
@@ -118,7 +116,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87A242431C5BB09100B6C549 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
